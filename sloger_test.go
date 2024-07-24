@@ -26,7 +26,3 @@ func TestSloger(t *testing.T) {
 	ctx := context.WithValue(context.Background(), "x-tt-logId", "12986329")
 	slog.InfoContext(ctx, "hello slog")
 }
-
-func TestName(t *testing.T) {
-	slog.Info("hello slog")
-}
