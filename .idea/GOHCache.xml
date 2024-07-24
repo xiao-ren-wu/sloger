@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Handler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/sloger_handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HandlerConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HandlerOptions">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MultiWriter">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/multi_writer.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/SlogerHandler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721824433136" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721825053808" />
+              <option name="schema">
+                <list>
+                  <option value="HandlerOptions" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/enums.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721826056395" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/multi_writer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721826056384" />
+              <option name="schema">
+                <list>
+                  <option value="MultiWriter" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/sloger_handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721825916973" />
+              <option name="schema">
+                <list>
+                  <option value="Handler" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/sloger_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1721826350250" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="handler" value="Handler" />
+        <entry key="handler_config" value="HandlerConfig" />
+        <entry key="handler_options" value="HandlerOptions" />
+        <entry key="multi_writer" value="MultiWriter" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1721824235427" />
+  </component>
+</project>
