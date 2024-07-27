@@ -18,7 +18,7 @@ func (m *MultiWriter) Write(p []byte) (n int, err error) {
 	return maxN, nil
 }
 
-func NewMultiWriter(mw []io.Writer) io.Writer {
+func NewMultiWriter(mw ...io.Writer) io.Writer {
 	return &MultiWriter{
 		writers: mw,
 	}
