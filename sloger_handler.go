@@ -27,11 +27,11 @@ func NewHandler(opts *slog.HandlerOptions, format LogFormat, ctxKeys []string, m
 	var handler slog.Handler
 	switch format {
 	case Json:
-		handler = slog.NewJSONHandler(NewMultiWriter(mw), opts)
+		handler = slog.NewJSONHandler(NewMultiWriter(mw...), opts)
 	case Text:
-		handler = slog.NewTextHandler(NewMultiWriter(mw), opts)
+		handler = slog.NewTextHandler(NewMultiWriter(mw...), opts)
 	default:
-		handler = slog.NewJSONHandler(NewMultiWriter(mw), opts)
+		handler = slog.NewJSONHandler(NewMultiWriter(mw...), opts)
 	}
 	return &Handler{
 		Handler: handler,

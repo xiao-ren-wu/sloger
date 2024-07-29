@@ -1,0 +1,2 @@
+{"time":"2024-07-29T12:16:38.123478+08:00","level":"INFO","source":{"function":"github.com/xiao-ren-wu/sloger.TestSloger","file":"/Users/erik/GolandProject/sloger_test.go","line":25},"msg":"hello slog"}
+{"time":"2024-07-29T12:16:38.123731+08:00","level":"INFO","source":{"function":"github.com/xiao-ren-wu/sloger.TestSloger","file":"/Users/erik/GolandProject/sloger_test.go","line":27},"msg":"hello slog","x-tt-logId":"12986329"}
