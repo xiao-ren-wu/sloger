@@ -30,6 +30,8 @@ func NewHandler(opts *slog.HandlerOptions, format LogFormat, ctxKeys []string, m
 		handler = slog.NewJSONHandler(NewMultiWriter(mw...), opts)
 	case Text:
 		handler = slog.NewTextHandler(NewMultiWriter(mw...), opts)
+	case Pretty:
+		handler = NewPrettyHandler(NewMultiWriter(mw...), opts)
 	default:
 		handler = slog.NewJSONHandler(NewMultiWriter(mw...), opts)
 	}
